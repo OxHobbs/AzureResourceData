@@ -14,5 +14,8 @@ Get-Help Get-AzureVMResourceReport -Full
 ```
 
 ### Change Log
+#### v0.1.1
+* Fixed a bug where the wrong cmdlet was being called to login to Azure.
+
 #### v0.1.0
 * Initial release

@@ -14,7 +14,7 @@ function Get-AzureVMResourceReport
 
     param()
 
-    Login-Azure -Confirm
+    Add-AzureLogin -Confirm
 
     $retObs = @()
     $subs = Get-AzureRmSubscription
